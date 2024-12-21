@@ -1,4 +1,6 @@
-![icon](public/file.svg)
+![virtual-stage-1](public/virtual-stage-1.png)
+
+![virtual-stage-2](public/virtual-stage-2.png)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
