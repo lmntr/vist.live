@@ -1,10 +1,16 @@
-import Image from "next/image";
+"use client";
+
 import styles from "./page.module.css";
+import readme from "@/README.md";
+import Markdown from "react-markdown";
+
+const readmeClean = readme.replace(/(\!\[.*?\]\()public\/(.*?\))/g, '$1$2');
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
+      <Markdown>{readmeClean}</Markdown>
+      {/* <main className={styles.main}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -89,7 +95,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
