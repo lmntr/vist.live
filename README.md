@@ -1,40 +1,59 @@
+# Virtual Stage
+**English** / **[日本語](#バーチャルステージ)**
+
+People love live concerts. There's nothing quite like being able to see your favorite idol on stage and standing with your fellow fans to cheer them on. 
+![concert](https://4.bp.blogspot.com/-ecq76A9jlJc/WH2bfTtuP9I/AAAAAAABBKM/xCYMj6snh-kKgknAflk_qsUQvDcvMYtzwCLcB/w1200-h630-p-k-no-nu/movie_liveviewing_man.png)
+
+But not everyone is able to go to a concert. It might be too far or not a good time. It would be nice if we could get the experience of going to a live concert within the comforts of our own homes. 
+
+With the power of VR, this is dream can now be a reality!
+![vr-headset](https://th.bing.com/th/id/R.c3aace79719c704133f2c967607f6c00?rik=DiIpRPLm0tYVBg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-WP43YfryJbE%2fV5AXsGCdbTI%2fAAAAAAAA8aA%2fhDTCguNpBJYgie-xvgZ-Su-FExhoyxsQwCLcB%2fs800%2fvr_game_motion.png&ehk=ta6kMfQ%2fGAloFPaqMTHRmvFVTcH6C1xmz6pnQUBvRVk%3d&risl=&pid=ImgRaw&r=0)
+
+Introducing **Virtual Stage**! Connecting artists and fan all around the world!
+
+## How it works
+Virtual stages can be aranged just like the streamed editions of real-life concerts and viewed in a browser.
 ![virtual-stage-1](public/virtual-stage-1.png)
+*Note: This is just a design, and the final product might look different.*
 
+The stage will have a live stream player and a live chat just like a live stream, but it's no ordinary live stream. The stage itself is a full 3D enviornment that is rendered on the surver. When an artist is performing on stage, they send their motion capture input to the server in real time, and then the server renders it and presents it as a stream to the audience. 
+
+As well as being able to view it as a video though, users can enter the virtual stage and be a part of the audience!
 ![virtual-stage-2](public/virtual-stage-2.png)
+*Note: This is just a design, and the final product might look different.*
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Viewers will have the choice to either use a VR headset or control their virtual avatar from within the browser in first-person, making it accessible to anyone even if they don't have a VR headset. Their view will be rendered on the server as well, which will make it both easier to run from any device as well as add a layer of security to prevent 3D assets from being stolen. When the viewer moves or presses a control, their avatar will move in real time. Not only that, they will be able to see and interact with other fans around them in the audience as well. With this, you can have a real audience controlled by real people in your own virtual stage!
 
-## Getting Started
+If you are interested in Virtual Stage, please contact [me](https://lacostigan.com/)! I will be happy to reply to any inquiries you may have!
 
-First, run the development server:
+The code for this project is availabe on [GitHub](https://github.com/lmntr/vist.live/).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# バーチャルステージ
+**[English](#virtual-stage)** / **日本語**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+人々はライブが大好きだ。好きなアイドルのステージを見ることができ、ファン仲間と一緒に立って応援できることほど素晴らしいことはない。
+![ライブ](https://4.bp.blogspot.com/-ecq76A9jlJc/WH2bfTtuP9I/AAAAAAABBKM/xCYMj6snh-kKgknAflk_qsUQvDcvMYtzwCLcB/w1200-h630-p-k-no-nu/movie_liveviewing_man.png)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+でも、誰もがライブに行けるわけではない。遠かったり、時間が合わなかったり。自宅にいながらライブに行くような体験ができたらいい。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+VRの力で、そんな夢が現実になる！
+![VRヘッドセット](https://th.bing.com/th/id/R.c3aace79719c704133f2c967607f6c00?rik=DiIpRPLm0tYVBg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-WP43YfryJbE%2fV5AXsGCdbTI%2fAAAAAAAA8aA%2fhDTCguNpBJYgie-xvgZ-Su-FExhoyxsQwCLcB%2fs800%2fvr_game_motion.png&ehk=ta6kMfQ%2fGAloFPaqMTHRmvFVTcH6C1xmz6pnQUBvRVk%3d&risl=&pid=ImgRaw&r=0)
 
-## Learn More
+**バーチャルステージ**をご紹介する！世界中のアーティストとファンをつなぐ！
 
-To learn more about Next.js, take a look at the following resources:
+## 仕組み
+バーチャルステージは、実際のライブの配信版のようにアレンジでき、ブラウザで見ることができる。
+![バーチャルステージ-1](public/virtual-stage-1.png)
+*注：これはあくまでデザインであり、最終的な製品は異なるものになるかもしれません。*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ステージには、ライブ配信と同じように配信プレーヤーとライブチャットがあるが、普通のライブ配信ではない。ステージ自体は、サーバー上でレンダリングされるフル3Dの環境だ。アーティストがステージでパフォーマンスをしているとき、モーションキャプチャー入力をリアルタイムでサーバーに送り、サーバーはそれをレンダリングして配信として観客に見せる。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+動画として見るだけでなく、ユーザーはバーチャルステージに入り、観客の一部になることができる！
+![バーチャルステージ-2](public/virtual-stage-2.png)
+*注：これはあくまでデザインであり、最終的な製品は異なるものになるかもしれません。*
 
-## Deploy on Vercel
+視聴者は、VRヘッドセットを使用するか、ブラウザから一人称視点でバーチャルアバターを操作するかを選択できる。視聴者の視点はサーバー上でもレンダリングされるため、どのデバイスからでも実行しやすくなると同時に、3Dアセットが盗まれるのを防ぐセキュリティのレイヤーも追加される。視聴者が動いたり、コントロールを押したりすると、アバターがリアルタイムで動く。それだけでなく、観客席の周りの他のファンを見たり、交流したりすることができる。これによって、あなただけのバーチャルステージで、本物の観客が本物の人間によってコントロールされるのだ！
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+バーチャルステージに興味がある方は、[私](https://lacostigan.com/)までご連絡ください！お問い合わせには喜んでお答えします！
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+このプロジェクトのコードは[GitHub](https://github.com/lmntr/vist.live/)にあります。
