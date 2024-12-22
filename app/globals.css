@@ -69,3 +69,8 @@ img[src^="http"] {
     width: 100vw;
   }
 }
+
+hr {
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
