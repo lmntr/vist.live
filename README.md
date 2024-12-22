@@ -28,6 +28,7 @@ If you are interested in Virtual Stage, please contact [me](https://lacostigan.c
 
 The code for this project is availabe on [GitHub](https://github.com/lmntr/vist.live/).
 
+---
 
 # [バーチャルステージ](https://vist.live/)
 **[English](#virtual-stage)** / **日本語**
