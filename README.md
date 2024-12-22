@@ -1,4 +1,4 @@
-# Virtual Stage
+# [Virtual Stage](https://vist.live/)
 **English** / **[日本語](#バーチャルステージ)**
 
 People love live concerts. There's nothing quite like being able to see your favorite idol on stage and standing with your fellow fans to cheer them on. 
@@ -28,7 +28,7 @@ If you are interested in Virtual Stage, please contact [me](https://lacostigan.c
 
 The code for this project is availabe on [GitHub](https://github.com/lmntr/vist.live/).
 
-# バーチャルステージ
+# [バーチャルステージ](https://vist.live/)
 **[English](#virtual-stage)** / **日本語**
 
 人々はライブが大好きだ。好きなアイドルのステージを見ることができ、ファン仲間と一緒に立って応援できることほど素晴らしいことはない。
