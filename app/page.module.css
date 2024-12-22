@@ -56,6 +56,10 @@
   font-weight: 600;
 }
 
+.main>* {
+  text-align: center;
+}
+
 .ctas {
   display: flex;
   gap: 16px;
@@ -128,8 +132,8 @@ a.secondary {
 
 @media (max-width: 600px) {
   .page {
-    padding: 32px;
-    padding-bottom: 80px;
+    padding: 0;
+    margin: 0;
   }
 
   .main {
