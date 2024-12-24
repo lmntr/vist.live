@@ -6,6 +6,10 @@ import Markdown from "react-markdown";
 import styles from "./page.module.css";
 import readme from "@/README.md";
 
+export const metadata = {
+  title: 'Virtual Stage',
+};
+
 const readmeClean = readme.replace(/(\!\[.*?\]\()public\/(.*?\))/g, '$1$2');
 
 const flatten = (text, child) => {
